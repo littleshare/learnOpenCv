@@ -5,7 +5,7 @@ int main(int argc, char** argv)
 {
 	IplImage *pic = NULL;
 	
-	pic = cvLoadImage("f:\\123.jpg");
+	pic = cvLoadImage("lena.jpg");
 	if (NULL == pic)
 	{
 		printf("Load image fail!\n");
